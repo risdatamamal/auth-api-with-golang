@@ -1,1 +1,1 @@
-# auth-api-with-golang
+# Auth API with Golang
