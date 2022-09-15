@@ -3,8 +3,9 @@ package models
 import (
 	"time"
 
+	"auth-api-with-golang/helpers"
+
 	"github.com/luthfikw/govalidator"
-	"github.com/temmy-alex/final-assignment/helpers"
 	"gorm.io/gorm"
 )
 

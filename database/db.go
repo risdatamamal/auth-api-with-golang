@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/temmy-alex/final-assignment/models"
+	"auth-api-with-golang/models"
+
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

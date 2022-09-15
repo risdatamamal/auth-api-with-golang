@@ -6,9 +6,10 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 
+	"auth-api-with-golang/database"
+	"auth-api-with-golang/models"
+
 	"github.com/gin-gonic/gin"
-	"github.com/temmy-alex/final-assignment/database"
-	"github.com/temmy-alex/final-assignment/models"
 )
 
 func PhotoAuthorization() gin.HandlerFunc {

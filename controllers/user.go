@@ -5,10 +5,11 @@ import (
 	"fmt"
 	"net/http"
 
+	"auth-api-with-golang/database"
+	"auth-api-with-golang/helpers"
+	"auth-api-with-golang/models"
+
 	"github.com/gin-gonic/gin"
-	"github.com/temmy-alex/final-assignment/database"
-	"github.com/temmy-alex/final-assignment/helpers"
-	"github.com/temmy-alex/final-assignment/models"
 )
 
 var (

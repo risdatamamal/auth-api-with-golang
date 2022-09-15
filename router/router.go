@@ -1,9 +1,10 @@
 package router
 
 import (
+	"auth-api-with-golang/controllers"
+	"auth-api-with-golang/middlewares"
+
 	"github.com/gin-gonic/gin"
-	"github.com/temmy-alex/final-assignment/controllers"
-	"github.com/temmy-alex/final-assignment/middlewares"
 )
 
 func StartApp() *gin.Engine {

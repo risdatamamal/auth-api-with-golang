@@ -3,8 +3,9 @@ package middlewares
 import (
 	"net/http"
 
+	"auth-api-with-golang/helpers"
+
 	"github.com/gin-gonic/gin"
-	"github.com/temmy-alex/final-assignment/helpers"
 )
 
 func Authentication() gin.HandlerFunc {

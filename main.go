@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/temmy-alex/final-assignment/database"
-	"github.com/temmy-alex/final-assignment/router"
+	"auth-api-with-golang/database"
+	"auth-api-with-golang/router"
 )
 
 func main() {

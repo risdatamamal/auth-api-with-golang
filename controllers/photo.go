@@ -5,12 +5,14 @@ import (
 	"fmt"
 	"net/http"
 
+	"auth-api-with-golang/helpers"
+
 	"github.com/dgrijalva/jwt-go"
-	"github.com/temmy-alex/final-assignment/helpers"
+
+	"auth-api-with-golang/database"
+	"auth-api-with-golang/models"
 
 	"github.com/gin-gonic/gin"
-	"github.com/temmy-alex/final-assignment/database"
-	"github.com/temmy-alex/final-assignment/models"
 )
 
 func ListPhoto(c *gin.Context) {
